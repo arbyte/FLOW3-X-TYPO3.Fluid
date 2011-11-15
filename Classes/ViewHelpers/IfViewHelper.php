@@ -77,6 +77,11 @@ namespace TYPO3\Fluid\ViewHelpers;
  * Otherwise, everything the value of the "else"-attribute is displayed.
  * </output>
  *
+ * <code title="workaround for string comparisons">
+ * <f:if condition="{0:myVariable}=={0:'TestString'}">
+ *   This is being shown in case the condition matches
+ * </f:if>
+ *
  *
  * @api
  */
