@@ -84,6 +84,7 @@ class TranslateViewHelper extends \TYPO3\Fluid\Core\ViewHelper\AbstractViewHelpe
 	 * translated label.
 	 *
 	 * @param string $key Id to use for finding translation
+	 * @param array $arguments Numerically indexed array of values to be inserted into placeholders
 	 * @param string $default if $key is not specified or could not be resolved, this value is used. If this argument is not set, child nodes will be used to render the default
 	 * @param array $arguments Numerically indexed array of values to be inserted into placeholders
 	 * @param string $source Name of file with translations
